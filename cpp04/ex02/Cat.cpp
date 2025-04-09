@@ -6,7 +6,7 @@
 /*   By: schennal <schennal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 16:25:26 by schennal          #+#    #+#             */
-/*   Updated: 2024/05/10 19:15:52 by schennal         ###   ########.fr       */
+/*   Updated: 2024/05/12 17:16:30 by schennal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ Cat::Cat():brain(new Brain){
     type = "Cat";
 }
 
-Cat::Cat(const Cat &other): Animal(other){
+Cat::Cat(const Cat &other): AAnimal(other){
     brain = new Brain(*other.brain);
     std::cout << CYAN << "Cat copy constructor called" << DEFAULT << std::endl;
     this->type = other.type;

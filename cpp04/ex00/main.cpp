@@ -6,7 +6,7 @@
 /*   By: schennal <schennal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 17:08:38 by schennal          #+#    #+#             */
-/*   Updated: 2024/05/10 17:59:43 by schennal         ###   ########.fr       */
+/*   Updated: 2024/05/12 18:15:52 by schennal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,18 +19,18 @@
 int	main() {
 	std::cout << YELLOW "Subject Tests" DEFAULT << std::endl;
 	const Animal *meta = new Animal;
-	const Animal *j = new Dog;
+	//const Animal *j = new Dog;
 	const Animal *i = new Cat;
 
-	std::cout << j->getType() << " " << std::endl;
-	std::cout << i->getType() << " " << std::endl;
+	//std::cout << j->getType() << " " << std::endl;
+	std::cout << i->getType() << std::endl;
 	i->makeSound();
-	j->makeSound();
+	//j->makeSound();
 	meta->makeSound();
 	std::cout << DEFAULT;
 
 	delete i;
-	delete j;
+	//delete j;
 	delete meta;
 	
 	
@@ -38,9 +38,9 @@ int	main() {
 	const WrongAnimal *wrongAnimal = new WrongAnimal;
 	const WrongAnimal *wrongCat = new WrongCat;
 
-	std::cout << wrongAnimal->getType() << ": ";
+	std::cout << wrongCat->getType() <<std::endl;
+
 	wrongAnimal->makeSound();
-	std::cout << wrongCat->getType() << ": ";
 	wrongCat->makeSound();
 	std::cout << DEFAULT;
 

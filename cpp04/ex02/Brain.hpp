@@ -6,14 +6,14 @@
 /*   By: schennal <schennal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 18:38:05 by schennal          #+#    #+#             */
-/*   Updated: 2024/05/10 18:53:35 by schennal         ###   ########.fr       */
+/*   Updated: 2024/05/12 17:12:50 by schennal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef BRAIN_HPP
 #define BRAIN_HPP
 
-#include "Animal.hpp"
+#include "AAnimal.hpp"
 
 #define MAGENTA	"\033[0;35m"
 

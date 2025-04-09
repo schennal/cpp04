@@ -6,13 +6,13 @@
 #    By: schennal <schennal@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/10 16:48:57 by schennal          #+#    #+#              #
-#    Updated: 2024/05/10 19:22:11 by schennal         ###   ########.fr        #
+#    Updated: 2024/05/12 17:16:07 by schennal         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		=	ex02
 
-SRCS		=	main.cpp Animal.cpp Cat.cpp Dog.cpp Brain.cpp 
+SRCS		=	main.cpp AAnimal.cpp Cat.cpp Dog.cpp Brain.cpp 
 				
 OBJS		=	$(SRCS:%.cpp=%.o)
 

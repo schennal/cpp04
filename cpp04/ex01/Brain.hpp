@@ -6,7 +6,7 @@
 /*   By: schennal <schennal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 18:38:05 by schennal          #+#    #+#             */
-/*   Updated: 2024/05/10 18:53:35 by schennal         ###   ########.fr       */
+/*   Updated: 2024/05/12 18:45:47 by schennal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ class Brain {
 
         void setIdea(int i, const std::string &idea);
         const std::string &getIdea(int i) const;
+        
 };
 
 #endif
